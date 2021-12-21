@@ -3,7 +3,7 @@
         const setTimeStamp = function(){
             const timeStamp = document.getElementById("timestamp-value");
 
-            timeStamp.innerHTML = new Date().toISOString();
+            timeStamp.innerHTML = new Date().toISOString() + "</br>" + timeStamp.innerHTML;
         }
 
         const initPlayButton = function(){
