@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+html main,
+body main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+html main #button,
+body main #button {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html main #button #button-container,
+body main #button #button-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html main #button #button-container #play-button,
+body main #button #button-container #play-button {
+  width: 15em;
+  height: 15em;
+  border-radius: 100%;
+  background-color: #c22f27;
+}
+html main #button #button-container #play-button span,
+body main #button #button-container #play-button span {
+  font-size: 3em;
+}
+html main #timestamp,
+body main #timestamp {
+  margin-left: 2em;
+}

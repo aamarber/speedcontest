@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="es-es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Speed contest!</title>
+  <meta name="description" content="A game to play at classroom.">
+  <meta name="author" content="aamarber">
+
+  <meta property="og:title" content="A game to play at classroom.">
+  <meta property="og:type" content="website">
+  <!-- <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/"> -->
+  <meta property="og:description" content="A game to play at classroom.">
+  <!-- <meta property="og:image" content="image.png"> -->
+
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <link rel="stylesheet" href="styles/dist/main.css?v=1.0">
+
+</head>
+
+<body>
+  <!-- your content here... -->
+  <main>
+      <section id="button">
+          <article id="button-container">
+              <button id="play-button">
+                  <span>CLICK</span>
+              </button>
+          </article>
+      </section>
+      <section id="sound">
+        <article id=sound-container>
+          <input type="radio" id="quack" name="sound" value="quack.wav" checked>
+          <label for="Quack">Quack</label>
+
+          <input type="radio" id="scream" name="sound" value="scream.wav">
+          <label for="scream">Scream</label>
+
+          <input type="radio" id="bell" name="sound" value="bell.flac">
+          <label for="bell">Bell</label>
+
+          <input type="radio" id="dog" name="sound" value="dog.wav">
+          <label for="dog">Dog</label>
+        </article>
+      </section>
+      <section id="timestamp">
+        <span id="timestamp-value"></span>
+      </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
